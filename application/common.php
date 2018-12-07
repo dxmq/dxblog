@@ -10,3 +10,28 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+/**
+ * 发送邮件
+ */
+
+function sendMail($to, $title, $content)
+{
+    // Create the Transport
+    $transport = (new Swift_SmtpTransport('smtp.163.com', 25))
+        ->setUsername('13529565773@163.com')
+        ->setPassword('ZC65773')
+    ;
+
+// Create the Mailer using your created Transport
+    $mailer = new Swift_Mailer($transport);
+
+// Create a message
+    $message = (new Swift_Message($title))
+        ->setFrom(['13529565773@163.com' => 'dxmq'])
+        ->setTo($to)
+        ->setBody($content)
+    ;
+
+// Send the message
+    return $mailer->send($message);
+}

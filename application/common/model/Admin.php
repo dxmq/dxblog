@@ -43,12 +43,65 @@ class Admin extends Model
         if (! $validate->scene('register')->check($data)) {
             return $validate->getError();
         }
-        $data['create_time'] = time();
-        $ret = $this->save($data);
+        $ret = $this->allowField(true)->save($data);
         if ($ret) {
             return 1;
         } else {
             return '注册失败';
+        }
+    }
+
+    // 忘记密码
+    public function sendCode($data)
+    {
+        $validate = new \app\common\validate\Admin();
+        if (! $validate->scene('sendCode')->check($data)) {
+            return $validate->getError();
+        }
+        // 查询数据库中是否有这个邮箱
+        $ret = $this->where('email', $data['email'])->find();
+        if ($ret) {
+            $code = mt_rand(1000, 9999);
+            session('code', $code);
+            $title = '重置密码';
+            $content = '用户：' . $ret['username'] . '，您的重置密码的验证码是' . $code;
+            $result = sendMail($data['email'], $title, $content);
+            if ($result) {
+                return 1;
+            } else {
+                return '邮件验证码发送失败';
+            }
+        } else {
+            return '邮箱不存在';
+        }
+    }
+
+    // 重置密码
+    public function resetPassword($data)
+    {
+        $validate = new \app\common\validate\Admin();
+        if (! $validate->scene('reset')->check($data)) {
+            return $validate->getError();
+        }
+        if ($data['code'] == session('code')) {
+            $user = $this->where('email', $data['email'])->find();
+            $password = mt_rand(10000, 99999);
+            $user->password = $password;
+            $ret = $user->save();
+            if ($ret) {
+                $title = '重置密码';
+                $content = '用户：' . $user['username'] . "，您的新的密码是：" . $password;
+                $result = sendMail($data['email'], $title, $content);
+                if ($result) {
+                    return 1;
+                } else {
+                    return '邮件发送失败，重置密码失败！';
+                }
+            } else {
+                return '重置失败';
+            }
+        } else {
+            return '验证码不正确';
         }
     }
 }

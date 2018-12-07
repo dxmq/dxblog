@@ -18,7 +18,8 @@ class Admin extends Validate
         'password|密码' => 'require',
         'password2|确认密码' => 'require|confirm:password',
         'nickname|昵称' => 'require',
-        'email' => 'require|email'
+        'email|邮箱' => 'require|email',
+        'code|验证码' => 'require|number'
     ];
 
     // 登录验证场景
@@ -30,6 +31,18 @@ class Admin extends Validate
     // 注册验证场景
     public function sceneRegister()
     {
-        return $this->only(['username', 'password', 'password2', 'nickname', 'email']);
+        return $this->only(['username', 'password', 'password2', 'nickname', 'email'])->append('username', 'unique:admin');
+    }
+
+    // 发送邮箱时的验证
+    public function sceneSendCode()
+    {
+        return $this->only(['email']);
+    }
+
+    // 重置密码时的验证
+    public function sceneReset()
+    {
+        return $this->only(['email', 'code']);
     }
 }

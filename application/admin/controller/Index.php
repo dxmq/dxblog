@@ -2,6 +2,7 @@
 
 namespace app\admin\controller;
 
+use think\captcha\Captcha;
 use think\Controller;
 
 class Index extends Controller
@@ -38,11 +39,47 @@ class Index extends Controller
             ];
             $result = model('admin')->register($data);
             if ($result == 1) {
-                $this->success('注册成功', 'admin/index/login');
+                // 注册成功
+                $info = sendMail($data['email'], '注册成功', '注册成功!');
+                $this->success('注册成功', 'admin/index/login', $info);
             } else {
                 $this->error($result);
             }
         }
         return view();
+    }
+
+    // 忘记密码
+    public function reset()
+    {
+        if ($this->request->isAjax()) {
+            $data = [
+                'email' => input('post.email')
+            ];
+            $result = model('admin')->sendCode($data);
+            if ($result ==1) {
+                $this->success('验证码已发送，请填写', 'admin/index/reset');
+            } else {
+                $this->error($result);
+            }
+        }
+        return view();
+    }
+
+    // 重置密码
+    public function resetPassword()
+    {
+        if ($this->request->isAjax()) {
+            $data = [
+                'email' => input('post.email'),
+                'code' => input('post.code')
+            ];
+            $result = model('admin')->resetPassword($data);
+            if ($result == 1) {
+                $this->success('重置密码成功，新的密码已发送至您的邮箱', 'admin/index/login');
+            } else {
+                $this->error($result);
+            }
+        }
     }
 }

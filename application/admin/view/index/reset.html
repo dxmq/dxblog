@@ -15,37 +15,28 @@
 <div class="login-container">
     <form>
         <div class="loginbox bg-white">
-            <div class="loginbox-title">注册</div>
+            <div class="loginbox-title">忘记密码？</div>
 
             <div class="loginbox-or">
                 <div class="or-line"></div>
             </div>
             <div class="loginbox-textbox">
-                <input type="text" class="form-control" placeholder="用户名" name="username"/>
+                <input type="text" class="form-control" placeholder="你的邮箱" name="email"/>
             </div>
-            <div class="loginbox-textbox">
-                <input type="password" class="form-control" placeholder="密码" name="password"/>
-            </div>
-            <div class="loginbox-textbox">
-                <input type="password" class="form-control" placeholder="确认密码" name="password2"/>
-            </div>
-            <div class="loginbox-textbox">
-                <input type="text" class="form-control" placeholder="昵称" name="nickname"/>
-            </div>
-            <div class="loginbox-textbox">
-                <input type="text" class="form-control" placeholder="邮箱" name="email"/>
+            <div class="loginbox-textbox hidden">
+                <input type="text" class="form-control" placeholder="填写您的邮箱验证码" name="code"/>
             </div>
             <div class="loginbox-submit">
-                <input type="button" class="btn btn-primary btn-block" id="register" value="立即注册">
+                <input type="submit" class="btn btn-primary btn-block" id="sendCode" value="发送邮箱验证码">
+            </div>
+            <div class="loginbox-submit hidden">
+                <input type="submit" class="btn btn-primary btn-block" id="reset" value="重置密码">
             </div>
             <div class="loginbox-signup">
                 <a href="{:url('admin/index/login')}">返回登录</a>
             </div>
         </div>
     </form>
-    <div class="logobox">
-        <p class="text-center" style="font-size: 18px;font-weight: bold;text-shadow: 3px 3px 3px #FF0000;font-style: italic;">拜师QQ:305530751</p>
-    </div>
 </div>
 <script src="/static/admin/js/skins.min.js"></script>
 <!--Basic Scripts-->
@@ -66,24 +57,26 @@
         themefifthcolor = getThemeColorFromCss('themefifthcolor');
 
     });
-    $(function () {
-        $("#register").click(function () {
+    $(function() {
+        $('#sendCode').click(function () {
             $.ajax({
-                url: "{:url('admin/index/register')}",
+                url: "{:url('admin/index/reset')}",
                 type: 'post',
                 data: $('form').serialize(),
                 dataType: 'json',
-                success: function(data) {
-                    if (data.code == 1) {
-                        layer.msg(data.msg, {
+                success: function (data) {
+                    if (data.code ==1) {
+                        layer.open({
+                            content: data.msg,
                             icon: 6,
-                            time: 2000
-                        }, function () {
-                            location.href = data.url;
+                            time: 1000
                         });
+                        $('[name=code]').parent().removeClass('hidden');
+                        $('#sendCode').parent().addClass('hidden');
+                        $('#reset').parent().removeClass('hidden');
                     } else {
                         layer.open({
-                            title: '登录失败',
+                            title: '验证码发送失败',
                             content: data.msg,
                             icon: 5,
                             anim: 6
@@ -92,8 +85,34 @@
                 }
             });
             return false;
+        })
+    });
+    $('#reset').click(function() {
+        $.ajax({
+            url: "{:url('admin/index/resetPassword')}",
+            type: 'post',
+            data: $('form').serialize(),
+            dataType: 'json',
+            success: function (data) {
+                if (data.code == 1) {
+                    layer.msg(data.msg, {
+                        icon: 6,
+                        time: 1000
+                    }, function () {
+                        location.href = data.url;
+                    });
+                } else {
+                    layer.open({
+                        title: '重置密码失败',
+                        content: data.msg,
+                        icon: 5,
+                        anim: 6
+                    })
+                }
+            }
         });
-    })
+       return false;
+    });
 </script>
 </body>
 <!--  /Body -->
