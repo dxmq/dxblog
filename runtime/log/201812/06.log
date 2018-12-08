@@ -1,0 +1,4988 @@
+---------------------------------------------------------------
+[ 2018-12-06T09:22:41+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register
+[运行时间：0.897616s] [吞吐率：1.11req/s] [内存消耗：1,141.70kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-06T09:22:48+08:00 ] 127.0.0.1 GET tp.com/index.php/admin
+[运行时间：0.597566s] [吞吐率：1.67req/s] [内存消耗：1,878.45kb] [文件加载：64]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:23:30+08:00 ] 127.0.0.1 GET tp.com/index.php/admin
+[运行时间：0.067811s] [吞吐率：14.75req/s] [内存消耗：1,741.39kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:23:35+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register.html
+[运行时间：0.092183s] [吞吐率：10.85req/s] [内存消耗：1,880.98kb] [文件加载：64]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:09+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register.html
+[运行时间：0.097037s] [吞吐率：10.31req/s] [内存消耗：1,883.79kb] [文件加载：64]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:17+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.504056s] [吞吐率：1.98req/s] [内存消耗：3,133.56kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '60',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '12',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005572s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.042907s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544060837 , 1544060837) [ RunTime:0.003332s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:21+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.104559s] [吞吐率：9.56req/s] [内存消耗：3,133.56kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '60',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '12',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001676s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.039808s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544060841 , 1544060841) [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:54+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.133798s] [吞吐率：7.47req/s] [内存消耗：3,133.57kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '60',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '12',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000966s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.044346s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544060874 , 1544060874) [ RunTime:0.001073s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:57+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register.html
+[运行时间：0.033923s] [吞吐率：29.48req/s] [内存消耗：1,743.62kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:47:58+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.040470s] [吞吐率：24.71req/s] [内存消耗：2,209.38kb] [文件加载：70]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:48:03+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.050224s] [吞吐率：19.91req/s] [内存消耗：2,209.38kb] [文件加载：70]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:48:08+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.087416s] [吞吐率：11.44req/s] [内存消耗：3,133.57kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028150s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544060888 , 1544060888) [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:55:27+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register.html
+[运行时间：0.059526s] [吞吐率：16.80req/s] [内存消耗：1,743.62kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T09:55:32+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.116357s] [吞吐率：8.59req/s] [内存消耗：3,134.17kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002036s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.038040s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544061332 , 1544061332) [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:56:54+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.066383s] [吞吐率：15.06req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:56:57+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.030113s] [吞吐率：33.21req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:57:03+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.044189s] [吞吐率：22.63req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:57:04+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.030667s] [吞吐率：32.61req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:57:04+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.030377s] [吞吐率：32.92req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:57:04+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.030880s] [吞吐率：32.38req/s] [内存消耗：1,652.72kb] [文件加载：58]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+---------------------------------------------------------------
+[ 2018-12-06T09:58:38+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.111888s] [吞吐率：8.94req/s] [内存消耗：3,134.09kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => 'ddd',
+  'email' => '1697859639@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001144s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.042095s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , 'ddd' , '1697859639@qq.com' , 1544061518 , 1544061518) [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[ 2018-12-06T09:58:59+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.127095s] [吞吐率：7.87req/s] [内存消耗：3,133.93kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '123456',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001452s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.041021s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin' , '123456' , '' , '' , 1544061539 , 1544061539) [ RunTime:0.001488s ]
+---------------------------------------------------------------
+[ 2018-12-06T10:02:24+08:00 ] 127.0.0.1 GET tp.com/index.php/admin/register.html
+[运行时间：0.042981s] [吞吐率：23.27req/s] [内存消耗：1,743.62kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T10:02:28+08:00 ] 127.0.0.1 POST tp.com/index.php/admin/register.html
+[运行时间：0.042330s] [吞吐率：23.62req/s] [内存消耗：2,209.39kb] [文件加载：70]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/index.php/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T15:50:04+08:00 ] 127.0.0.1 GET tp.com/admin/index/login
+[运行时间：0.474561s] [吞吐率：2.11req/s] [内存消耗：1,144.25kb] [文件加载：48]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-12-06T15:50:09+08:00 ] 127.0.0.1 GET tp.com/admin
+[运行时间：0.453996s] [吞吐率：2.20req/s] [内存消耗：1,883.30kb] [文件加载：64]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T15:50:12+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.073674s] [吞吐率：13.57req/s] [内存消耗：1,743.53kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T15:56:41+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.116530s] [吞吐率：8.58req/s] [内存消耗：2,125.74kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T15:56:42+08:00 ] 127.0.0.1 GET tp.com/captcha.html
+[运行时间：0.129946s] [吞吐率：7.70req/s] [内存消耗：1,438.30kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T15:58:40+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.067804s] [吞吐率：14.75req/s] [内存消耗：2,126.23kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T15:58:40+08:00 ] 127.0.0.1 GET tp.com/captcha.html
+[运行时间：0.043729s] [吞吐率：22.87req/s] [内存消耗：1,438.39kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T15:58:55+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.079848s] [吞吐率：12.52req/s] [内存消耗：2,126.23kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T15:58:55+08:00 ] 127.0.0.1 GET tp.com/captcha.html
+[运行时间：0.052534s] [吞吐率：19.04req/s] [内存消耗：1,438.39kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'captcha/<id?>',
+  'route' => '\\think\\captcha\\CaptchaController@index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:03:47+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.061622s] [吞吐率：16.23req/s] [内存消耗：2,129.95kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:03:47+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html
+[运行时间：0.058048s] [吞吐率：17.23req/s] [内存消耗：1,902.82kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:04:08+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.062156s] [吞吐率：16.09req/s] [内存消耗：2,129.95kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:04:08+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html
+[运行时间：0.067363s] [吞吐率：14.84req/s] [内存消耗：1,902.82kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:04:20+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.035487s] [吞吐率：28.18req/s] [内存消耗：1,925.95kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:04:20+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html
+[运行时间：0.065337s] [吞吐率：15.31req/s] [内存消耗：1,902.82kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:10:33+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.111817s] [吞吐率：8.94req/s] [内存消耗：2,121.09kb] [文件加载：68]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+[ error ] [0]语法解析错误: syntax error, unexpected ')', expecting ',' or ';'[C:\wamp\www\tp5\runtime\temp\995093e09001555c6e075462599f634c.php:40]
+---------------------------------------------------------------
+[ 2018-12-06T16:12:54+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.060107s] [吞吐率：16.64req/s] [内存消耗：2,130.05kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:12:54+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html
+[运行时间：0.051337s] [吞吐率：19.48req/s] [内存消耗：1,902.82kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:56+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.7611458567221028
+[运行时间：0.036552s] [吞吐率：27.36req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_7611458567221028' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:56+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.22994021230127237
+[运行时间：0.028381s] [吞吐率：35.24req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_22994021230127237' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:57+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.41809088367367586
+[运行时间：0.031831s] [吞吐率：31.42req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_41809088367367586' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:57+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.11050462062716382
+[运行时间：0.025549s] [吞吐率：39.14req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_11050462062716382' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:57+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9632210403368269
+[运行时间：0.025559s] [吞吐率：39.13req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9632210403368269' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:57+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.26133735011755066
+[运行时间：0.024901s] [吞吐率：40.16req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_26133735011755066' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:57+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.36532042443296886
+[运行时间：0.029312s] [吞吐率：34.12req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_36532042443296886' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:58+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.19606675845882116
+[运行时间：0.027236s] [吞吐率：36.72req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_19606675845882116' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:58+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.2881930508239099
+[运行时间：0.037176s] [吞吐率：26.90req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_2881930508239099' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:58+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.7628964962542022
+[运行时间：0.027602s] [吞吐率：36.23req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_7628964962542022' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:58+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.19933769427481307
+[运行时间：0.027646s] [吞吐率：36.17req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_19933769427481307' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:58+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.34712171133398195
+[运行时间：0.025259s] [吞吐率：39.59req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_34712171133398195' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.3166698392106244
+[运行时间：0.027232s] [吞吐率：36.72req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_3166698392106244' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.22791114099416765
+[运行时间：0.027690s] [吞吐率：36.11req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_22791114099416765' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.7677289930042863
+[运行时间：0.027597s] [吞吐率：36.24req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_7677289930042863' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.4165094618895957
+[运行时间：0.023999s] [吞吐率：41.67req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_4165094618895957' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9983032143793684
+[运行时间：0.024636s] [吞吐率：40.59req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9983032143793684' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:12:59+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.09144562440005033
+[运行时间：0.026910s] [吞吐率：37.16req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_09144562440005033' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:00+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.12182760434412909
+[运行时间：0.024519s] [吞吐率：40.78req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_12182760434412909' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:00+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.24811366454515715
+[运行时间：0.025608s] [吞吐率：39.05req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_24811366454515715' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:00+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.8235196837570324
+[运行时间：0.025057s] [吞吐率：39.91req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_8235196837570324' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:00+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9192218077194758
+[运行时间：0.025620s] [吞吐率：39.03req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9192218077194758' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:00+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.420929262451762
+[运行时间：0.028655s] [吞吐率：34.90req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_420929262451762' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.46600126584932466
+[运行时间：0.025532s] [吞吐率：39.17req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_46600126584932466' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9345805802317815
+[运行时间：0.030890s] [吞吐率：32.37req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9345805802317815' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.8610888561318895
+[运行时间：0.024954s] [吞吐率：40.07req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_8610888561318895' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.43035548927112677
+[运行时间：0.026985s] [吞吐率：37.06req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_43035548927112677' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.2414305928522027
+[运行时间：0.029162s] [吞吐率：34.29req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_2414305928522027' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:01+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.1157555783634554
+[运行时间：0.039643s] [吞吐率：25.23req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_1157555783634554' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:11+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.33727079675493044
+[运行时间：0.041905s] [吞吐率：23.86req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_33727079675493044' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:12+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.02902125273410272
+[运行时间：0.040437s] [吞吐率：24.73req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_02902125273410272' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:12+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.5305607130629961
+[运行时间：0.034016s] [吞吐率：29.40req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_5305607130629961' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:13+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.7947206832744453
+[运行时间：0.043799s] [吞吐率：22.83req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_7947206832744453' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:15+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.24126005135438433
+[运行时间：0.036647s] [吞吐率：27.29req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_24126005135438433' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:15+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.158046936620317
+[运行时间：0.035449s] [吞吐率：28.21req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_158046936620317' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:16+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.16776260941531862
+[运行时间：0.033118s] [吞吐率：30.20req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_16776260941531862' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:17+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.8659381135119157
+[运行时间：0.037886s] [吞吐率：26.39req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_8659381135119157' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:17+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.8230823449943234
+[运行时间：0.033460s] [吞吐率：29.89req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_8230823449943234' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:18+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.7994431002781497
+[运行时间：0.031938s] [吞吐率：31.31req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_7994431002781497' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:18+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9246488879312149
+[运行时间：0.035434s] [吞吐率：28.22req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9246488879312149' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:18+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.2601102743523074
+[运行时间：0.030309s] [吞吐率：32.99req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_2601102743523074' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:19+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.9314041635429311
+[运行时间：0.038830s] [吞吐率：25.75req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_9314041635429311' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:19+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.5425811770862761
+[运行时间：0.035450s] [吞吐率：28.21req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_5425811770862761' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:19+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.21675626867981967
+[运行时间：0.035930s] [吞吐率：27.83req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_21675626867981967' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:13:19+08:00 ] 127.0.0.1 GET tp.com/admin/verify.html?0.3194431528929169
+[运行时间：0.046095s] [吞吐率：21.69req/s] [内存消耗：1,903.52kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/index/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  '0_3194431528929169' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:21:51+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.070455s] [吞吐率：14.19req/s] [内存消耗：2,125.64kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:21:53+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.181123s] [吞吐率：5.52req/s] [内存消耗：2,224.23kb] [文件加载：72]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:26:30+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.071478s] [吞吐率：13.99req/s] [内存消耗：2,134.14kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:26:31+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.030832s] [吞吐率：32.43req/s] [内存消耗：2,224.23kb] [文件加载：72]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:26:33+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.032593s] [吞吐率：30.68req/s] [内存消耗：2,224.23kb] [文件加载：72]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '47',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:26:36+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.040877s] [吞吐率：24.46req/s] [内存消耗：2,224.23kb] [文件加载：72]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:26:38+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.028910s] [吞吐率：34.59req/s] [内存消耗：2,224.23kb] [文件加载：72]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+---------------------------------------------------------------
+[ 2018-12-06T16:26:59+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.179255s] [吞吐率：5.58req/s] [内存消耗：3,213.20kb] [文件加载：78]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '80',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dxmq',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dxmq',
+  'email' => '1697859639@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015155s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.028654s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('dxmq' , '123' , 'dxmq' , '1697859639@qq.com' , 1544084819 , 1544084819) [ RunTime:0.001415s ]
+---------------------------------------------------------------
+[ 2018-12-06T16:27:45+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.036640s] [吞吐率：27.29req/s] [内存消耗：1,922.13kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:38:06+08:00 ] 127.0.0.1 GET tp.com/admin
+[运行时间：0.074782s] [吞吐率：13.37req/s] [内存消耗：1,921.38kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T16:38:08+08:00 ] 127.0.0.1 GET tp.com/admin
+[运行时间：0.034878s] [吞吐率：28.67req/s] [内存消耗：1,921.77kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T17:47:35+08:00 ] 127.0.0.1 GET tp.com/admin
+[运行时间：1.049168s] [吞吐率：0.95req/s] [内存消耗：2,125.88kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T17:47:37+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.968286s] [吞吐率：1.03req/s] [内存消耗：2,134.19kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T17:48:00+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.066888s] [吞吐率：14.95req/s] [内存消耗：2,134.27kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T17:48:05+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.352316s] [吞吐率：2.84req/s] [内存消耗：3,201.91kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006106s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog.tp_' doesn't exist[C:\wamp\www\tp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[ 2018-12-06T17:48:50+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.057413s] [吞吐率：17.42req/s] [内存消耗：3,201.91kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp_blog.tp_' doesn't exist[C:\wamp\www\tp5\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[ 2018-12-06T17:50:12+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.061906s] [吞吐率：16.15req/s] [内存消耗：1,922.26kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T17:50:17+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.094478s] [吞吐率：10.58req/s] [内存消耗：3,124.37kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '54',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000740s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023905s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2018-12-06T17:50:45+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.076625s] [吞吐率：13.05req/s] [内存消耗：3,124.62kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '52',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '',
+  'password2' => '',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025475s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'admin' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-12-06T17:50:57+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.085728s] [吞吐率：11.66req/s] [内存消耗：3,124.63kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '123',
+  'password2' => '1',
+  'nickname' => '',
+  'email' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.033501s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2018-12-06T18:06:35+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.628633s] [吞吐率：1.59req/s] [内存消耗：1,925.88kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T18:07:13+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.408249s] [吞吐率：2.45req/s] [内存消耗：3,790.55kb] [文件加载：80]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dx',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.034725s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn' , '123' , 'dx' , '1023612050@qq.com' , 1544090833 , 1544090833) [ RunTime:0.002012s ]
+[ error ] [0]致命错误: Call to undefined method PHPMailer\PHPMailer\PHPMailer::CharSet()[C:\wamp\www\tp5\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-12-06T18:16:00+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.153541s] [吞吐率：6.51req/s] [内存消耗：1,926.08kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T18:16:33+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.837856s] [吞吐率：0.02req/s] [内存消耗：3,963.55kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dx',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001073s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.018417s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn' , '123' , 'dx' , '1023612050@qq.com' , 1544091333 , 1544091333) [ RunTime:0.000291s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T18:17:28+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.211583s] [吞吐率：0.02req/s] [内存消耗：3,955.34kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dx',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011015s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023359s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn' , '123' , 'dx' , '1023612050@qq.com' , 1544091388 , 1544091388) [ RunTime:0.000424s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T18:24:27+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.479101s] [吞吐率：2.09req/s] [内存消耗：1,926.09kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T18:24:35+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.044925s] [吞吐率：22.26req/s] [内存消耗：1,926.09kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T18:25:56+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.364442s] [吞吐率：0.02req/s] [内存消耗：3,927.66kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dd',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.017149s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn' , '123' , 'dd' , '1023612050@qq.com' , 1544091896 , 1544091896) [ RunTime:0.000901s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T18:30:24+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.192246s] [吞吐率：0.02req/s] [内存消耗：3,927.56kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '76',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'zt',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'dd',
+  'email' => '1697859639@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.025993s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'zt' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'zt' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'zt' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('zt' , '123' , 'dd' , '1697859639@qq.com' , 1544092164 , 1544092164) [ RunTime:0.001077s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T18:31:38+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.051439s] [吞吐率：19.44req/s] [内存消耗：1,926.09kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T18:32:49+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.224472s] [吞吐率：0.02req/s] [内存消耗：3,955.26kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '77',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dd',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => '123',
+  'email' => '1697859639@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.019033s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('dd' , '123' , '123' , '1697859639@qq.com' , 1544092308 , 1544092308) [ RunTime:0.000783s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T22:07:02+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.508741s] [吞吐率：1.97req/s] [内存消耗：1,926.09kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:07:56+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.242156s] [吞吐率：4.13req/s] [内存消耗：3,218.94kb] [文件加载：78]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'qianle',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'qianle',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011324s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.022157s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('qianle' , '123' , 'qianle' , '1023612050@qq.com' , 1544105276 , 1544105276) [ RunTime:0.001571s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:07:58+08:00 ] 127.0.0.1 GET tp.com/admin.html
+[运行时间：0.075431s] [吞吐率：13.26req/s] [内存消耗：1,925.66kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:14:51+08:00 ] 127.0.0.1 GET tp.com/admin.html
+[运行时间：0.040877s] [吞吐率：24.46req/s] [内存消耗：1,926.03kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin',
+  'route' => 'admin/index/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\login.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:14:58+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.042790s] [吞吐率：23.37req/s] [内存消耗：1,926.05kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:15:27+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.104646s] [吞吐率：9.56req/s] [内存消耗：3,129.18kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '79',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'lemon',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'le',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001883s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.017192s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:16:23+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.527060s] [吞吐率：0.02req/s] [内存消耗：3,955.31kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '79',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'lemon',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'le',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001801s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.030943s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('lemon' , '123' , 'le' , '1023612050@qq.com' , 1544105722 , 1544105722) [ RunTime:0.000327s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T22:24:02+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.046292s] [吞吐率：21.60req/s] [内存消耗：1,926.13kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:25:24+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.269212s] [吞吐率：0.02req/s] [内存消耗：3,955.33kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'lemon',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'lemon',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.021528s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'lemon' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('lemon' , '123' , 'lemon' , '1023612050@qq.com' , 1544106264 , 1544106264) [ RunTime:0.001098s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T22:26:14+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.031011s] [吞吐率：32.25req/s] [内存消耗：1,925.84kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:27:34+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.355778s] [吞吐率：0.02req/s] [内存消耗：3,955.08kb] [文件加载：83]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '74',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dd',
+  'password' => 'dd',
+  'password2' => 'dd',
+  'nickname' => 'dd',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010853s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.036670s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('dd' , 'dd' , 'dd' , '1023612050@qq.com' , 1544106393 , 1544106393) [ RunTime:0.001102s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T22:36:46+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.648468s] [吞吐率：1.54req/s] [内存消耗：3,128.84kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '74',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dd',
+  'password' => 'dd',
+  'password2' => 'dd',
+  'nickname' => 'dd',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001726s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.022040s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:37:12+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.539331s] [吞吐率：0.05req/s] [内存消耗：3,907.77kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '74',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ee',
+  'password' => 'dd',
+  'password2' => 'dd',
+  'nickname' => 'dd',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.036933s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ee' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ee' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ee' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ee' , 'dd' , 'dd' , '1023612050@qq.com' , 1544107011 , 1544107011) [ RunTime:0.000941s ]
+[ error ] [0]致命错误: Call to undefined method PHPMailer\PHPMailer\PHPMailer::ErrorInfo()[C:\wamp\www\tp5\application\common.php:44]
+---------------------------------------------------------------
+[ 2018-12-06T22:41:10+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.114067s] [吞吐率：8.77req/s] [内存消耗：1,925.81kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:42:03+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.096715s] [吞吐率：10.34req/s] [内存消耗：3,128.89kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'qianle',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'QIAN',
+  'email' => '1023612050@@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.026132s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:42:11+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.069846s] [吞吐率：14.32req/s] [内存消耗：3,128.95kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'qianle',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'QIAN',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010654s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.017989s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:42:30+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.341109s] [吞吐率：0.05req/s] [内存消耗：3,907.89kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'qianle',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'QIAN',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010314s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.098430s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'qianle' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('qianle' , '123' , 'QIAN' , '1023612050@qq.com' , 1544107330 , 1544107330) [ RunTime:0.002178s ]
+[ error ] [0]致命错误: Call to undefined method PHPMailer\PHPMailer\PHPMailer::ErrorInfo()[C:\wamp\www\tp5\application\common.php:44]
+---------------------------------------------------------------
+[ 2018-12-06T22:45:06+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：0.073736s] [吞吐率：13.56req/s] [内存消耗：3,128.95kb] [文件加载：77]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '78',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'dd',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'QIAN',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010858s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.019354s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'dd' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:45:30+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.237720s] [吞吐率：0.05req/s] [内存消耗：3,907.89kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '78',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => '11',
+  'password' => '123',
+  'password2' => '123',
+  'nickname' => 'QIAN',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.020082s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = '11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = '11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = '11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('11' , '123' , 'QIAN' , '1023612050@qq.com' , 1544107509 , 1544107509) [ RunTime:0.001326s ]
+[ error ] [0]致命错误: Call to undefined method PHPMailer\PHPMailer\PHPMailer::ErrorInfo()[C:\wamp\www\tp5\application\common.php:44]
+---------------------------------------------------------------
+[ 2018-12-06T22:45:53+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.050002s] [吞吐率：20.00req/s] [内存消耗：1,925.81kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:46:42+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.296088s] [吞吐率：0.05req/s] [内存消耗：3,858.96kb] [文件加载：80]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn11',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011393s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.020035s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn11' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn11' , '111' , '111' , '1023612050@qq.com' , 1544107582 , 1544107582) [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:49:23+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.175689s] [吞吐率：5.69req/s] [内存消耗：2,129.73kb] [文件加载：67]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:49:34+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.285935s] [吞吐率：0.05req/s] [内存消耗：3,917.32kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn1111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011531s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.026983s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn1111' , '111' , '111' , '1023612050@qq.com' , 1544107753 , 1544107753) [ RunTime:0.000888s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:49:58+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：20.283328s] [吞吐率：0.05req/s] [内存消耗：3,917.32kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011621s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.018921s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'admin111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'admin111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'admin111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('admin111' , '111' , '111' , '1023612050@qq.com' , 1544107778 , 1544107778) [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-12-06T22:54:47+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.050149s] [吞吐率：19.94req/s] [内存消耗：1,925.73kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T22:56:06+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：59.448733s] [吞吐率：0.02req/s] [内存消耗：3,924.63kb] [文件加载：82]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.019217s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn111' , '111' , '111' , '1023612050@qq.com' , 1544108106 , 1544108106) [ RunTime:0.001318s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[C:\wamp\www\tp5\vendor\phpmailer\phpmailer\src\SMTP.php:1125]
+---------------------------------------------------------------
+[ 2018-12-06T22:59:05+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：21.103662s] [吞吐率：0.05req/s] [内存消耗：3,917.36kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '86',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn1111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.023643s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn1111' , '111' , '111' , '1023612050@qq.com' , 1544108325 , 1544108325) [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-12-06T23:03:48+08:00 ] 127.0.0.1 GET tp.com/admin/register.html
+[运行时间：0.096220s] [吞吐率：10.39req/s] [内存消耗：1,925.76kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp\www\tp5\application\admin\view\index\register.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2018-12-06T23:04:35+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.251784s] [吞吐率：0.02req/s] [内存消耗：3,917.38kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn111111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011342s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.024041s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn111111' , '111' , '111' , '1023612050@qq.com' , 1544108614 , 1544108614) [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2018-12-06T23:05:11+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.220475s] [吞吐率：0.02req/s] [内存消耗：3,917.38kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '89',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn1111111',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003295s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.022329s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn1111111' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn1111111' , '111' , '111' , '1023612050@qq.com' , 1544108651 , 1544108651) [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2018-12-06T23:11:38+08:00 ] 127.0.0.1 POST tp.com/admin/register.html
+[运行时间：60.196494s] [吞吐率：0.02req/s] [内存消耗：3,917.36kb] [文件加载：81]
+[ info ] [ LANG ] C:\wamp\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/register',
+  'route' => 'admin/index/register',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get|post',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://tp.com/admin/register.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=8642338816; PHPSESSID=8b5pu6kmh3iqih59q3og2vneek',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ztcjegn12',
+  'password' => '111',
+  'password2' => '111',
+  'nickname' => '111',
+  'email' => '1023612050@qq.com',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;dbname=tp_blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.019428s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn12' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn12' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `id` FROM `tp_admin` WHERE (  `username` = 'ztcjegn12' ) AND `tp_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] INSERT INTO `tp_admin` (`username` , `password` , `nickname` , `email` , `create_time` , `update_time`) VALUES ('ztcjegn12' , '111' , '111' , '1023612050@qq.com' , 1544109038 , 1544109038) [ RunTime:0.001757s ]

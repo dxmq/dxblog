@@ -35,3 +35,8 @@ function sendMail($to, $title, $content)
 // Send the message
     return $mailer->send($message);
 }
+
+// span 替换为 a
+function replace($html) {
+    return str_replace('span', 'a', $html);
+}

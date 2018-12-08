@@ -13,5 +13,12 @@ Route::group('admin', function () {
     Route::rule('/', 'admin/index/login', 'get|post');
     Route::rule('register', 'admin/index/register', 'get|post');
     Route::rule('reset', 'admin/index/reset', 'get|post');
-    Route::rule('resetPassword', 'admin/index/resetPassword', 'get|post');
+    Route::rule('resetPassword', 'admin/index/resetPassword', 'post');
+    Route::rule('index', 'admin/home/index', 'get');
+    Route::rule('logout', 'admin/home/logout', 'post');
+    Route::rule('catelst', 'admin/cate/lst', 'get');
+    Route::rule('cateadd', 'admin/cate/add', 'get|post');
+    Route::rule('catesort', 'admin/cate/sort', 'post');
+    Route::rule('cateedit/[:id]', 'admin/cate/edit', 'get|post');
+    Route::rule('catedelete', 'admin/cate/delete', 'post');
 });

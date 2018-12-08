@@ -2,11 +2,16 @@
 
 namespace app\admin\controller;
 
-use think\captcha\Captcha;
-use think\Controller;
 
-class Index extends Controller
+class Index extends Base
 {
+    public function initialize()
+    {
+        if (session('?admin.id')) {
+            $this->redirect('admin/home/index');
+        }
+    }
+
     // 后台登录
     public function login()
     {
