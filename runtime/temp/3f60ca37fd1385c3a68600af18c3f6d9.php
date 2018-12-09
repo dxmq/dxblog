@@ -1,4 +1,4 @@
-<?php /*a:4:{s:52:"C:\wamp\www\tp5\application\admin\view\cate\lst.html";i:1544254480;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544242958;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
+<?php /*a:4:{s:52:"C:\wamp\www\tp5\application\admin\view\cate\lst.html";i:1544330042;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544279900;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -157,12 +157,12 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/article/lst'); ?>">
                         <span class="menu-text">文章列表</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/article/add'); ?>">
                         <span class="menu-text">文章添加</span>
                     </a>
                 </li>
@@ -250,7 +250,7 @@
                                     </thead>
                                     <tbody>
                                     <?php if(is_array($cates) || $cates instanceof \think\Collection || $cates instanceof \think\Paginator): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
-                                    <tr id="cate_tr">
+                                    <tr id="cate_tr_<?php echo htmlentities($vo['id']); ?>">
                                         <td><input type="text" name="sort" value="<?php echo htmlentities($vo['sort']); ?>" size="1" dataid="<?php echo htmlentities($vo['id']); ?>"></td>
                                         <td><?php echo htmlentities($vo['catename']); ?></td>
                                         <td>
@@ -356,12 +356,12 @@
         });
 
         $(".cate-del").click(function () {
-            layer.confirm('确定删除吗？', {
+            var id = $(this).attr('dataid');
+            layer.confirm('确定删除吗？栏目下的文章也会删除哦！', {
                 icon: 3,
                 title: '栏目删除'
             }, function (index) {
                 layer.close(index);
-                var id = $(this).attr('dataid');
                 $.ajax({
                     url: "<?php echo url('admin/cate/delete'); ?>",
                     type: 'post',
@@ -373,7 +373,7 @@
                                 icon: 6,
                                 time: 1000
                             }, function () {
-                                $("#cate_tr").remove();
+                                $("#cate_tr_"+id).remove();
                             });
                         } else {
                             layer.open({

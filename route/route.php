@@ -21,4 +21,9 @@ Route::group('admin', function () {
     Route::rule('catesort', 'admin/cate/sort', 'post');
     Route::rule('cateedit/[:id]', 'admin/cate/edit', 'get|post');
     Route::rule('catedelete', 'admin/cate/delete', 'post');
+    Route::rule('articleadd', 'admin/article/add', 'get|post');
+    Route::rule('articlelist', 'admin/article/lst', 'get');
+    Route::rule('articletop', 'admin/article/top', 'post');
+    Route::rule('articleedit/[:id]', 'admin/article/edit', 'get|post');
+    Route::rule('articledelete', 'admin/article/del', 'post');
 });

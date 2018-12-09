@@ -9,6 +9,11 @@ class Cate extends Model
 {
     use SoftDelete;
 
+    // 关联模型
+    public function article()
+    {
+        return $this->hasMany('Article', 'cate_id', 'id');
+    }
     // 栏目添加
     public function add($data)
     {

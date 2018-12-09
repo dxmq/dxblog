@@ -76,8 +76,8 @@ class Cate extends Base
     // 栏目删除
     public function delete()
     {
-        $cateInfo = model('cate')->find(input('post.id'));
-        $result = $cateInfo->delete();
+        $cateInfo = model('cate')->with('article')->find(input('post.id'));
+        $result = $cateInfo->together('article')->delete();
         if ($result) {
             $this->success('栏目删除成功');
         } else {

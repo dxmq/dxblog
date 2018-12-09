@@ -1,0 +1,137 @@
+{include file="public/_head"}
+
+<!-- /Navbar -->
+<!-- Main Container -->
+<div class="main-container container-fluid">
+    <!-- Page Container -->
+    <div class="page-container">
+
+        <!-- Page Sidebar -->
+        {include file="public/_menu"}
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>&nbsp;文章管理
+                    </li>
+                    <li>文章编辑</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+            <!-- Page Body -->
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="widget radius-bordered">
+                            <div class="widget-header bordered-bottom bordered-themeprimary">
+                                <span class="widget-caption">文章编辑</span>
+                            </div>
+                            <div class="widget-body">
+                                <form action="" class="form-horizontal">
+                                    <input type="hidden" name="id" value="{$articleInfo.id}">
+                                    <div class="form-group">
+                                        <label for="title" class="control-label col-sm-2">文章标题</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="title" name="title" placeholder="文章标题" value="{$articleInfo.title}"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="tags" class="control-label col-sm-2">标签</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="tags" name="tags" placeholder="标签"  value="{$articleInfo.tags}"/>
+                                        </div>
+                                        <p class="help-block">多个标签用|隔开</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cateid" class="control-label col-sm-2">所属栏目</label>
+                                        <div class="col-sm-2">
+                                            <select name="cate_id" class="form-control">
+                                                <option value="0">请选择</option>
+                                                {volist name="cates" id="vo"}
+                                                <option value="{$vo.id}" id="cateid" {eq name="vo.id" value="$articleInfo.cate_id"}selected="selected"{/eq}>{$vo.catename}</option>
+                                                {/volist}
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox col-sm-offset-2 col-sm-2">
+                                            <label>
+                                                <input type="checkbox" name="is_top" value="{$articleInfo.is_top}" {if $articleInfo.is_top == 1}checked{/if}>
+                                                <span class="text">是否推荐</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="content" class="control-label col-sm-2">文章概要</label>
+                                        <div class="col-sm-7">
+                                            <textarea name="desc" id="desc" cols="60" rows="2" class="">{$articleInfo.desc}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="content" class="control-label col-sm-2">文章内容</label>
+                                        <div class="col-sm-7">
+                                            <textarea name="content" id="content" cols="30" rows="10" class=""> {$articleInfo.content}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-6">
+                                            <button class="btn btn-primary" type="submit" id="articleEdit">编辑</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Body -->
+        </div>
+        <!-- /Page Content -->
+
+    </div>
+    <!-- /Page Container -->
+    <!-- Main Container -->
+
+</div>
+
+{include file="public/_js"}
+<script src="/static/lib/ueditor/ueditor.config.js"></script>
+<script src="/static/lib/ueditor/ueditor.all.js"></script>
+
+<script>
+    $(function () {
+        UE.getEditor('content');
+        $("#articleEdit").click(function () {
+            $.ajax({
+                url: "{:url('admin/article/edit')}",
+                type: 'post',
+                data: $('form').serialize(),
+                dataType: 'json',
+                success:function (data) {
+                    if (data.code == 1) {
+                        layer.msg(data.msg, {
+                            icon: 6,
+                            time: 1000
+                        }, function () {
+                            location.href = data.url;
+                        });
+                    } else {
+                        layer.open({
+                            icon: 5,
+                            title: '文章编辑成功',
+                            content: data.msg,
+                            anim: 6
+                        });
+                    }
+                }
+            });
+            return false;
+        });
+    })
+</script>
+</body>
+<!--  /Body -->
+</html>

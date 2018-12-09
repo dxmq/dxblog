@@ -43,7 +43,7 @@
                                     </thead>
                                     <tbody>
                                     {volist name="cates" id="vo"}
-                                    <tr id="cate_tr">
+                                    <tr id="cate_tr_{$vo.id}">
                                         <td><input type="text" name="sort" value="{$vo.sort}" size="1" dataid="{$vo.id}"></td>
                                         <td>{$vo.catename}</td>
                                         <td>
@@ -104,12 +104,12 @@
         });
 
         $(".cate-del").click(function () {
-            layer.confirm('确定删除吗？', {
+            var id = $(this).attr('dataid');
+            layer.confirm('确定删除吗？栏目下的文章也会删除哦！', {
                 icon: 3,
                 title: '栏目删除'
             }, function (index) {
                 layer.close(index);
-                var id = $(this).attr('dataid');
                 $.ajax({
                     url: "{:url('admin/cate/delete')}",
                     type: 'post',
@@ -121,7 +121,7 @@
                                 icon: 6,
                                 time: 1000
                             }, function () {
-                                $("#cate_tr").remove();
+                                $("#cate_tr_"+id).remove();
                             });
                         } else {
                             layer.open({
