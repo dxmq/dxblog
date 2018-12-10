@@ -104,4 +104,58 @@ class Admin extends Model
             return '验证码不正确';
         }
     }
+
+    // 管理员添加
+    public function add($data)
+    {
+        $validate = new \app\common\validate\Admin();
+        if (! $validate->scene('add')->check($data)) {
+            return $validate->getError();
+        }
+        $result = $this->allowField(TRUE)->save($data);
+        if ($result) {
+            return 1;
+        } else {
+            return '管理员添加失败';
+        }
+    }
+
+    // 管理员编辑
+    public function edit($data)
+    {
+        $validate = new \app\common\validate\Admin();
+        if (! $validate->scene('edit')->check($data)) {
+            return $validate->getError();
+        }
+        $adminInfo = $this->find($data['id']);
+        if ($adminInfo['username'] == $data['username'] || $adminInfo['email'] == $data['email'])
+            return 1;
+        $adminInfo->username = $data['username'];
+        $adminInfo->password = $data['password'];
+        $adminInfo->nickname = $data['nickname'];
+        $adminInfo->email = $data['email'];
+        $result = $adminInfo->save();
+        if ($result) {
+            return 1;
+        } else {
+            return '管理员编辑失败';
+        }
+    }
+
+    // 管理员状态
+    public function status($data)
+    {
+        $validate = new \app\common\validate\Admin();
+        if (! $validate->scene('status')->check($data)) {
+            return $validate->getError();
+        }
+        $adminInfo = $this->find($data['id']);
+        $adminInfo->status = $data['status'];
+        $result = $adminInfo->allowField(TRUE)->save();
+        if ($result) {
+            return 1;
+        } else {
+            return '操作失败';
+        }
+    }
 }

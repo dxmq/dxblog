@@ -19,7 +19,9 @@ class Admin extends Validate
         'password2|确认密码' => 'require|confirm:password',
         'nickname|昵称' => 'require',
         'email|邮箱' => 'require|email',
-        'code|验证码' => 'require|number'
+        'code|验证码' => 'require|number',
+        'id|管理员id' => 'require|number',
+        'status|管理员状态' => 'require|number'
     ];
 
     // 登录验证场景
@@ -44,5 +46,23 @@ class Admin extends Validate
     public function sceneReset()
     {
         return $this->only(['email', 'code']);
+    }
+
+    // 管理员添加时的验证
+    public function sceneAdd()
+    {
+        return $this->only(['username', 'password', 'password2', 'nickname', 'email'])->append('username', 'unique:admin');
+    }
+
+    // 管理员编辑时的验证
+    public function sceneEdit()
+    {
+        return $this->only(['username', 'password', 'nickname', 'email', 'id'])->append('username', 'unique:admin');
+    }
+
+    // 管理员状态的验证
+    public function sceneStatus()
+    {
+        return $this->only(['id', 'status']);
     }
 }

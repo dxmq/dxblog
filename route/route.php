@@ -26,4 +26,13 @@ Route::group('admin', function () {
     Route::rule('articletop', 'admin/article/top', 'post');
     Route::rule('articleedit/[:id]', 'admin/article/edit', 'get|post');
     Route::rule('articledelete', 'admin/article/del', 'post');
+    Route::rule('memberlst', 'admin/member/lst', 'get');
+    Route::rule('memberadd', 'admin/member/add', 'get|post');
+    Route::rule('memberedit/[:id]', 'admin/member/edit', 'get|post');
+    Route::rule('memberdelete', 'admin/member/del', 'post');
+    Route::rule('adminlst', 'admin/admin/lst', 'get|post');
+    Route::rule('adminadd', 'admin/admin/add', 'get|post');
+    Route::rule('adminedit/[:id]', 'admin/admin/edit', 'get|post');
+    Route::rule('adminstatus', 'admin/admin/status', 'post');
+    Route::rule('admindelete', 'admin/admin/del', 'post');
 });

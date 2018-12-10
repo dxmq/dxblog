@@ -1,4 +1,4 @@
-<?php /*a:4:{s:54:"C:\wamp\www\tp5\application\admin\view\home\index.html";i:1544243368;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544279900;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
+<?php /*a:4:{s:54:"C:\wamp\www\tp5\application\admin\view\home\index.html";i:1544243368;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544365675;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -175,12 +175,12 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/member/lst'); ?>">
                         <span class="menu-text">会员列表</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/member/add'); ?>">
                         <span class="menu-text">会员添加</span>
                     </a>
                 </li>
@@ -194,12 +194,12 @@
             </a>
             <ul class="submenu">
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/admin/lst'); ?>">
                         <span class="menu-text">管理员列表</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="<?php echo url('admin/admin/add'); ?>">
                         <span class="menu-text">管理员添加</span>
                     </a>
                 </li>

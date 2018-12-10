@@ -1,0 +1,219 @@
+{include file="public/_head"}
+<!-- /Navbar -->
+<!-- Main Container -->
+<div class="main-container container-fluid">
+    <!-- Page Container -->
+    <div class="page-container">
+
+        <!-- Page Sidebar -->
+        {include file="public/_menu"}
+        <!-- /Page Sidebar -->
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Page Breadcrumb -->
+            <div class="page-breadcrumbs">
+                <ul class="breadcrumb">
+                    <li class="active">
+                        <i class="fa fa-home"></i>&nbsp;管理员管理
+                    </li>
+                    <li>管理员列表</li>
+                </ul>
+            </div>
+            <!-- /Page Breadcrumb -->
+            <!-- Page Body -->
+            <div class="page-body">
+                <a href="{:url('admin/admin/add')}" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i>&nbsp;管理员添加</a>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="widget">
+                            <div class="widget-header">
+                                <span class="widget-caption">管理员列表</span>
+                                <div class="widget-buttons admin_page">
+                                    {$page|raw}
+                                </div>
+                            </div>
+                            <div class="widget-body">
+                                <table class="table table-hover table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>管理员名称</th>
+                                        <th>昵称</th>
+                                        <th>邮箱</th>
+                                        <th>状态</th>
+                                        <th>权限</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="admin_list">
+                                    {volist name="data" id="vo"}
+                                    <tr id="admin_tr_{$vo.id}">
+                                        <td>{$vo.id}</td>
+                                        <td>{$vo.username}</td>
+                                        <td>{$vo.nickname}</td>
+                                        <td>{$vo.email}</td>
+                                        <td>{if($vo.status == 0)}禁用{else /}正常{/if}</td>
+                                        <td>{if($vo.is_super == 0)}普通管理员{else /}超级管理员{/if}</td>
+                                        <td>
+                                            <a href="{:url('admin/admin/edit', ['id'=>$vo.id])}" class="btn btn-azure btn-xs">编辑</a>
+                                            <a href="{:url('admin/admin/del')}" class="btn btn-danger btn-xs admin-del" dataid="{$vo.id}">删除</a>
+                                            {if session('admin.is_super') == 1}
+                                            {if $vo.is_super != 1}
+                                            {if $vo.status == 1}
+                                            <a href="#" class="btn btn-purple btn-xs admin_status" dataid="{$vo.id}" admin_status="{$vo.status}">禁用</a>
+                                            {else /}
+                                            <a href="#" class="btn btn-purple btn-xs admin_status" dataid="{$vo.id}" admin_status="{$vo.status}">启用</a>
+                                            {/if}
+                                            {/if}
+                                            {/if}
+                                        </td>
+                                    </tr>
+                                    {/volist}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Body -->
+        </div>
+        <!-- /Page Content -->
+
+    </div>
+    <!-- /Page Container -->
+    <!-- Main Container -->
+
+</div>
+
+{include file="public/_js"}
+<script>
+$('.admin_page').delegate('a', 'click', function () {
+    var url = $(this).attr('href'); // 要访问的url地址
+    $.ajax({
+        url: url,
+        success: function (data) {
+            page(data); // 调用page方法
+        }
+    });
+    return false;
+});
+
+function page(data) {
+    tr = '';
+    $('.admin_page').html(data.page);
+    delete data.page; // 删除之前返回的分页按钮
+    delete data.status1; // 删除之前后台返回的状态码
+    var is_super = "{:session('admin.is_super')}";
+    for (var k in data) {
+        var status = data[k].status;
+        var data_is_super = data[k].is_super;
+        if (status == 1) {
+            var msg1 = '正常';
+        } else {
+            var msg1 = '禁用';
+        }
+        if (data_is_super == 1) {
+            var msg2 = '超级管理员';
+        } else {
+            var msg2 = '普通管理员';
+        }
+        if (is_super == 1) {
+            if (data_is_super != 1) {
+                if (status == 1) {
+                    var msg3 = '<a href="#" class="btn btn-purple btn-xs admin_status"  dataid="'+data[k].id+'" admin_status="'+status+'">禁用</a>';
+                } else {
+                    var msg3 = '<a href="#" class="btn btn-purple btn-xs admin_status" dataid="'+data[k].id+'" admin_status="'+status+'">启用</a>';
+                }
+            } else {
+                msg3 = '';
+            }
+        }
+        var id = data[k].id;
+        id = parseInt(id);
+        var url = '{:url(\'admin/admin/edit\', '', false)}/'+id+'.html';
+        tr += '<tr id="admin_tr_'+id+'"><td>'+id+'</td><td>'+data[k].username+'</td><td>'+data[k].nickname+'</td><td>'+data[k].email+'</td><td>'+msg1+'</td><td>'+msg2+'</td><td><a href="'+url+'" class="btn btn-azure btn-xs">编辑</a> <a href="{:url(\'admin/admin/del\')}" class="btn btn-danger btn-xs admin-del" dataid="'+id+'">删除</a> '+msg3+'</td></tr>';
+        $("#admin_list").html(tr); // 放到页面中
+    }
+}
+
+
+$(function () {
+    $('.admin_status').click(function () {
+        var status = $(this).attr('admin_status');
+        var id = $(this).attr('dataid');
+        if (status == 1) {
+            var msg = '确定要禁用吗？';
+        } else {
+            var msg = '确定要启用吗';
+        }
+        layer.confirm(msg, {
+            icon: 3,
+            title: '状态操作'
+        }, function (index) {
+            layer.close(index);
+            $.ajax({
+                url: "{:url('admin/admin/status')}",
+                type: 'post',
+                data: {id:id, status:status},
+                dataType: 'json',
+                success: function (data) {
+                    if (data.code == 1) {
+                        layer.msg(data.msg, {
+                            icon: 6,
+                            time: 1000
+                        }, function () {
+                            location.href = data.url;
+                        });
+                    } else{
+                        layer.open({
+                            icon: 5,
+                            anim: 6,
+                            title: '操作失败',
+                            content: data.msg
+                        });
+                    }
+                }
+            });
+        });
+        return false;
+    });
+
+    $('.admin-del').click(function () {
+        var id = $(this).attr('dataid');
+        layer.confirm('确定要删除吗？', {
+            icon: 3,
+            title: '管理员删除'
+        }, function (index) {
+            layer.close(index);
+            $.ajax({
+                url: "{:url('admin/admin/del')}",
+                type: 'post',
+                data: {id:id},
+                dataType: 'json',
+                success: function (data) {
+                    if (data.code == 1) {
+                        layer.msg(data.msg, {
+                            icon: 6,
+                            time: 1000
+                        }, function () {
+                            $("#admin_tr_"+id).remove();
+                        });
+                    } else{
+                        layer.open({
+                            icon: 5,
+                            anim: 6,
+                            title: '管理员删除失败',
+                            content: data.msg
+                        });
+                    }
+                }
+            });
+        });
+        return false;
+    });
+})
+</script>
+</body>
+<!--  /Body -->
+</html>
