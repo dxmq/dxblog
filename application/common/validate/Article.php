@@ -15,6 +15,7 @@ class Article extends Validate
 {
     protected $rule = [
         'title|文章标题' => 'require|unique:article',
+        'author|作者' => 'require',
         'tags|标签' => 'require',
         'cate_id|栏目' => 'require|number',
         'desc|文章概要' => 'require',
@@ -26,7 +27,7 @@ class Article extends Validate
     // 添加时的验证场景
     public function sceneAdd()
     {
-        return $this->only(['title', 'tags', 'cate_id', 'desc', 'content']);
+        return $this->only(['title', 'author', 'tags', 'cate_id', 'desc', 'content']);
     }
 
     // 推荐时的验证场景
@@ -38,6 +39,6 @@ class Article extends Validate
     // 编辑时的验证场景
     public function sceneEdit()
     {
-        return $this->only(['title', 'tags', 'cate_id', 'desc', 'content', 'id']);
+        return $this->only(['title', 'author', 'tags', 'cate_id', 'desc', 'content', 'id']);
     }
 }

@@ -84,7 +84,21 @@
             </ul>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon glyphicon glyphicon glyphicon-comment"></i>
+                <span class="menu-text">评论管理</span>
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="{:url('admin/comment/lst')}">
+                        <span class="menu-text">评论列表</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="{:url('admin/system/set')}">
                 <i class="menu-icon glyphicon glyphicon-cog"></i>
                 <span class="menu-text">系统设置</span>
             </a>

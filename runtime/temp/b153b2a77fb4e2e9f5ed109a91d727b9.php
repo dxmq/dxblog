@@ -1,4 +1,4 @@
-<?php /*a:4:{s:54:"C:\wamp\www\tp5\application\admin\view\home\index.html";i:1544243368;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544365675;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
+<?php /*a:4:{s:54:"C:\wamp\www\tp5\application\admin\view\home\index.html";i:1544243368;s:56:"C:\wamp\www\tp5\application\admin\view\public\_head.html";i:1544194530;s:56:"C:\wamp\www\tp5\application\admin\view\public\_menu.html";i:1544454095;s:54:"C:\wamp\www\tp5\application\admin\view\public\_js.html";i:1544243376;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -206,7 +206,21 @@
             </ul>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon glyphicon glyphicon glyphicon-comment"></i>
+                <span class="menu-text">评论管理</span>
+                <i class="menu-expand"></i>
+            </a>
+            <ul class="submenu">
+                <li>
+                    <a href="<?php echo url('admin/comment/lst'); ?>">
+                        <span class="menu-text">评论列表</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="<?php echo url('admin/system/set'); ?>">
                 <i class="menu-icon glyphicon glyphicon-cog"></i>
                 <span class="menu-text">系统设置</span>
             </a>

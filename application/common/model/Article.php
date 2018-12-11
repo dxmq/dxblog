@@ -4,7 +4,6 @@ namespace app\common\model;
 
 use think\Model;
 use think\model\concern\SoftDelete;
-
 class Article extends Model
 {
     use SoftDelete;
@@ -14,6 +13,12 @@ class Article extends Model
         return $this->belongsTo('Cate', 'cate_id', 'id');
     }
 
+    // 关联评论模型，删除文章时删除评论
+    public function comments()
+    {
+        return $this->hasMany('Comment', 'article_id', 'id');
+    }
+
     // 添加文章
     public function add($data)
     {
@@ -21,6 +26,8 @@ class Article extends Model
         if (! $validate->scene('add')->check($data)) {
             return $validate->getError();
         }
+        $fileData = uploadFile('image', 'img');
+        $data['thumb'] = $fileData['thumb_img'];
         $result = $this->allowField(true)->save($data);
         if ($result) {
             return 1;
@@ -55,6 +62,7 @@ class Article extends Model
         }
         $articleInfo = $this->find($data['id']);
         $articleInfo->title = $data['title'];
+        $articleInfo->author = $data['author'];
         $articleInfo->desc = $data['desc'];
         $articleInfo->tags = $data['tags'];
         $articleInfo->content = $data['content'];

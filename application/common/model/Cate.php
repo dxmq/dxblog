@@ -14,6 +14,7 @@ class Cate extends Model
     {
         return $this->hasMany('Article', 'cate_id', 'id');
     }
+
     // 栏目添加
     public function add($data)
     {

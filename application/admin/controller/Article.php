@@ -2,7 +2,7 @@
 
 namespace app\admin\controller;
 
-
+use think\Env;
 class Article extends Base
 {
     // 文章列表
@@ -22,11 +22,12 @@ class Article extends Base
         if ($this->request->isAjax()) {
             $data = [
                 'title' => input('post.title'),
+                'author' => input('post.author'),
                 'desc' => input('post.desc'),
                 'tags' => input('post.tags'),
                 'content' => input('post.content'),
                 'is_top' => input('post.is_top', 0),
-                'cate_id' => input('post.cate_id')
+                'cate_id' => input('post.cate_id'),
             ];
             $result = model('Article')->add($data);
             if ($result == 1) {
@@ -65,6 +66,7 @@ class Article extends Base
             $data = [
                 'id' => input('post.id'),
                 'title' => input('post.title'),
+                'author' => input('post.author'),
                 'desc' => input('post.desc'),
                 'tags' => input('post.tags'),
                 'content' => input('post.content'),
@@ -93,8 +95,8 @@ class Article extends Base
     // 文章删除
     public function del()
     {
-        $articleInfo = model('Article')->find(input('post.id'));
-        $ret = $articleInfo->delete();
+        $articleInfo = model('Article')->with('comments')->find(input('post.id'));
+        $ret = $articleInfo->together('comments')->delete();
         if ($ret) {
             $this->success('文章删除成功');
         } else {

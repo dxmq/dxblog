@@ -30,11 +30,17 @@
                                 <span class="widget-caption">文章添加</span>
                             </div>
                             <div class="widget-body">
-                                <form action="" class="form-horizontal">
+                                <form action="" class="form-horizontal" enctype="multipart/form-data" id="from1">
                                     <div class="form-group">
                                         <label for="title" class="control-label col-sm-2">文章标题</label>
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control" id="title" name="title" placeholder="文章标题" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="author" class="control-label col-sm-2">作者</label>
+                                        <div class="col-sm-2">
+                                            <input type="text" class="form-control" id="author" name="author" placeholder="作者" />
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -47,7 +53,7 @@
                                     <div class="form-group">
                                         <label for="cateid" class="control-label col-sm-2">所属栏目</label>
                                         <div class="col-sm-2">
-                                            <select name="cate_id" class="form-control">
+                                            <select name="cate_id" class="form-control" id="cateid">
                                                 <option value="0">请选择</option>
                                                 {volist name="cateInfo" id="vo"}
                                                 <option value="{$vo.id}" name="cate_id">{$vo.catename}</option>
@@ -55,8 +61,14 @@
                                             </select>
                                         </div>
                                     </div>
+                                    <!--<div class="form-group">
+                                        <label for="f" class="control-label col-sm-2">文章缩略图</label>
+                                        <div class="col-sm-2">
+                                            <input type="file" name="image" id="image" />
+                                        </div>
+                                    </div>-->
                                     <div class="form-group">
-                                        <div class="checkbox col-sm-offset-2 col-sm-2">
+                                        <div class="checkbox col-sm-2 col-sm-offset-2">
                                             <label>
                                                 <input type="checkbox" name="is_top" value="1">
                                                 <span class="text">是否推荐</span>
@@ -129,7 +141,7 @@
             });
             return false;
         });
-    })
+    });
 </script>
 </body>
 <!--  /Body -->

@@ -9,6 +9,16 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 use think\facade\Route;
+// 前台路由
+Route::rule('cate/:id', 'index/index/index', 'get');
+Route::rule('/', 'index/index/index', 'get');
+Route::rule('article-<id>', 'index/article/info', 'get');
+Route::rule('register', 'index/index/register', 'get|post');
+Route::rule('login', 'index/index/login', 'get|post');
+Route::rule('logout', 'index/index/logout', 'post');
+Route::rule('search', 'index/index/search', 'get');
+Route::rule('comment', 'index/article/comment', 'post');
+// 后台路由
 Route::group('admin', function () {
     Route::rule('/', 'admin/index/login', 'get|post');
     Route::rule('register', 'admin/index/register', 'get|post');
@@ -35,4 +45,7 @@ Route::group('admin', function () {
     Route::rule('adminedit/[:id]', 'admin/admin/edit', 'get|post');
     Route::rule('adminstatus', 'admin/admin/status', 'post');
     Route::rule('admindelete', 'admin/admin/del', 'post');
+    Route::rule('commentlst', 'admin/comment/lst', 'get');
+    Route::rule('commentdel', 'admin/comment/del', 'post');
+    Route::rule('systemset', 'admin/system/set', 'get|post');
 });

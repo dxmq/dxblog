@@ -65,8 +65,8 @@ class Member extends Base
     // 会员删除
     public function del()
     {
-        $members = model('Member')->find(input('post.id'));
-        $result = $members->delete();
+        $members = model('Member')->with('comments')->find(input('post.id'));
+        $result = $members->together('comments')->delete();
         if ($result) {
             $this->success('会员删除成功');
         } else {
