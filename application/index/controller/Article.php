@@ -27,6 +27,8 @@ class Article extends Base
         ];
         $result = model('Comment')->comment($data);
         if ($result == 1) {
+            $articleInfo = model('Article')->find($data['article_id']);
+            $articleInfo->setInc('comment_num');
             $this->success('评论成功');
         } else {
             $this->error($result);
